@@ -1,63 +1,74 @@
 # TravelSkills
 
-**Open-source Claude Agent Skills for travel & tourism professionals.**
+**Open-source Claude Agent Skills for travel professionals.**
 
-The first open-source library of Claude Agent Skills dedicated to tourism and travel professionals. Designed with real-world tourism use cases in mind.
+The first open-source library of Claude Agent Skills for travel pros. Built
+from how the work is really done, not from generic web data.
 
-🌐 [travelskills.io](https://travelskills.io)
+[travelskills.io](https://travelskills.io)
 
 ---
 
 ## What this is
 
-TravelSkills is a growing library of **Claude Agent Skills** built specifically for the travel and tourism industry. Each skill is a focused, production-ready capability you can install into Claude to solve a specific tourism use case — visitor counseling, destination content generation, multilingual responses, review handling, itinerary building, and more.
+Each skill targets one job in the travel industry and encodes how that job is
+actually performed: the phrasings experienced pros use, the ones they have
+learned to avoid, how they shift register depending on who they are talking to.
 
-Skills are released under **AGPL v3**. Commercial licensing available for proprietary use.
+Writing a skill file is easy. Writing one that holds up in front of someone who
+has done the job for ten years takes material no model produces on its own.
+That is where the work goes.
 
 ## Status
 
-🚧 **Pre-release.** First skills launching **early May 2026**.
+Pre-release. The first skills ship in the fall of 2026.
 
-We're building in public. Star this organization to get notified when the first skills land.
+The project is built in public. Star the organization to get notified when the
+first repositories land, or join the waitlist at
+[travelskills.io](https://travelskills.io).
 
-## Planned skills
+## Four roles, four skills
 
-- `tourism-stay-advisor` — Personalized stay recommendations and visitor counseling
-- `destination-content-writer` — On-brand destination content generation
-- `visitor-review-responder` — Professional, contextual review responses
-- `travel-itinerary-builder` — Multi-day itinerary generation with local expertise
-- `multilingual-concierge` — Multilingual traveler assistance
-- `tourism-data-analyst` — Analysis of tourism data and visitor insights
+| Skill | Role | Covers |
+|---|---|---|
+| `claude-travel-agent-skill` | Travel Agent | Sales, objection handling, dispute resolution, legal obligations |
+| `travel-planner-skill` | Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale |
+| `tourism-stay-advisor` | Stay Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers |
+| `tour-operator-skill` | Tour Operator | Product copy, supplier negotiation, B2B communication, pre-departure documents |
 
-More coming as the project grows.
+More roles will follow as the library grows.
+
+## How the skills are built
+
+We start from field material rather than the web: interviews, podcasts, trade
+publications, what practitioners tell us about their day-to-day. We look for
+what separates an experienced pro from a beginner, then turn it into
+before/after examples. One version that sounds generic, one that sounds right.
+That format lets an assistant learn by example rather than from abstract rules.
+
+Every example comes from a real source. Every skill is public, testable, and
+open to correction.
 
 ## Who this is for
 
-- **Destination Marketing Organizations (DMOs)** looking to modernize visitor experience
-- **Travel agencies and tour operators** automating repetitive content and advisory tasks
-- **Hospitality platforms** enhancing guest services with AI capabilities
-- **Independent travel consultants** scaling their expertise with production-grade tools
-- **Developers** building travel tech products on top of Claude
+Travel agencies, tour operators, destination marketing organizations,
+hospitality platforms, independent travel consultants, and developers building
+travel products on top of Claude.
 
-## Philosophy
+If someone on your team already works with Claude, these skills are for that
+person.
 
-- **Built by tourism professionals, for tourism professionals.** Skills encode real sectoral expertise, not generic AI prompts.
-- **Open-source first.** Community access matters. All skills released under AGPL v3.
-- **Sustainable.** Commercial licensing options ensure the project can grow and support its community long-term.
-- **Production-ready.** Skills are designed to be installed, used, and trusted — not experimental prototypes.
+## Contributing
 
-## Get involved
-
-- ⭐ **Star this organization** to follow progress
-- 📬 **Join the waitlist** at [travelskills.io](https://travelskills.io) to be notified at launch
-- 💬 **Have a use case in mind?** Open an issue once the first repositories go live, or reach out via the waitlist
+The project is open to contributions from professionals in the industry. Open
+an issue once the first repositories are live, or write to
+hello@travelskills.io if you have a use case worth encoding.
 
 ## License
 
-All skills published by TravelSkills are licensed under the **GNU Affero General Public License v3.0 (AGPL v3)**.
-
-For commercial licensing inquiries (proprietary use, SaaS integration, enterprise deployment), contact: hello@travelskills.io
+MIT. Use the skills, fork them, adapt them, ship them inside commercial
+products. Keep the copyright notice and you are fine.
 
 ---
 
-*A project by [Nicolas François](https://nfrancois.fr).*
+*A project by [Nicolas François](https://nfrancois.fr/en).*

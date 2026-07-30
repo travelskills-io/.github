@@ -71,4 +71,4 @@ products. Keep the copyright notice and you are fine.
 
 ---
 
-*A project by [Nicolas François](https://nfrancois.fr/en).*
+*A project by [Nicolas François](https://nfrancois.fr/en)*

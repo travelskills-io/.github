@@ -19,35 +19,27 @@ Writing a skill file is easy. Writing one that holds up in front of someone who
 has done the job for ten years takes material no model produces on its own.
 That is where the work goes.
 
+The skills follow the open Agent Skills standard, so they install in Claude and
+in any other agent that reads the specification.
+
 ## Status
 
-Pre-release. The first skills ship in the fall of 2026.
+Pre-release. Nothing is published yet. The first skill ships in Fall 2026.
 
-The project is built in public. Star the organization to get notified when the
+The project is built in public. Follow the organization to get notified when the
 first repositories land, or join the waitlist at
 [travelskills.io](https://travelskills.io).
 
-## Four roles, four skills
+## Four roles
 
-| Skill | Role | Covers |
-|---|---|---|
-| `claude-travel-agent-skill` | Travel Agent | Sales, objection handling, dispute resolution, legal obligations |
-| `travel-planner-skill` | Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale |
-| `tourism-stay-advisor` | Stay Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers |
-| `tour-operator-skill` | Tour Operator | Product copy, supplier negotiation, B2B communication, pre-departure documents |
+| Role | Covers |
+|---|---|
+| Travel Agent | Sales, objection handling, dispute resolution, legal obligations |
+| Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale |
+| Stay Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers |
+| Tour Operator | Product copy, supplier negotiation, B2B communication, pre-departure documents |
 
-More roles will follow as the library grows.
-
-## How the skills are built
-
-We start from field material rather than the web: interviews, podcasts, trade
-publications, what practitioners tell us about their day-to-day. We look for
-what separates an experienced pro from a beginner, then turn it into
-before/after examples. One version that sounds generic, one that sounds right.
-That format lets an assistant learn by example rather than from abstract rules.
-
-Every example comes from a real source. Every skill is public, testable, and
-open to correction.
+One skill per role. Repository names are set when each repository goes live.
 
 ## Who this is for
 
@@ -60,14 +52,12 @@ person.
 
 ## Contributing
 
-The project is open to contributions from professionals in the industry. Open
-an issue once the first repositories are live, or write to
-hello@travelskills.io if you have a use case worth encoding.
+The project is built with practitioners, not about them. If you work in one of
+these four roles and recognize the problem, write to hello@travelskills.io. What
+you send about your day-to-day is worth more at this stage than any pull
+request.
 
-## License
-
-MIT. Use the skills, fork them, adapt them, ship them inside commercial
-products. Keep the copyright notice and you are fine.
+Code and content contributions open once the first repositories are live.
 
 ---
 

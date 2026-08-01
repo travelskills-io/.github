@@ -17,7 +17,8 @@ learned to avoid, how they shift register depending on who they are talking to.
 
 Writing a skill file is easy. Writing one that holds up in front of someone who
 has done the job for ten years takes material no model produces on its own.
-That is where the work goes.
+That is where the work goes. Every pattern will come from a real source,
+identified in the skill file itself.
 
 The skills follow the open Agent Skills standard, so they install in Claude and
 in any other agent that reads the specification.
@@ -45,17 +46,16 @@ One skill per role. Repository names are set when each repository goes live.
 
 Travel agencies, tour operators, destination marketing organizations,
 hospitality platforms, independent travel consultants, and developers building
-travel products on top of Claude.
+travel products on top of Claude or other agents.
 
 If someone on your team already works with Claude, these skills are for that
 person.
 
 ## Contributing
 
-The project is built with practitioners, not about them. If you work in one of
-these four roles and recognize the problem, write to hello@travelskills.io. What
-you send about your day-to-day is worth more at this stage than any pull
-request.
+The project is built with the people who do the work. If you work in one of
+these four roles, write to hello@travelskills.io and describe how you handle one
+of these situations. At this stage that is worth more than a pull request.
 
 Code and content contributions open once the first repositories are live.
 

@@ -23,14 +23,14 @@ other agents that read the specification accept the same format.
 
 ## Status
 
-The first skill, `travel-planner`, is out. Get it in the
+The first skill, `travel-planner`, is out in preview. Get it in the
 [skills](https://github.com/travelskills-io/skills) repository or on
 [travelskills.io/skills/travel-planner](https://travelskills.io/skills/travel-planner).
 Installing takes about 5 minutes, no code
 ([English guide](https://github.com/travelskills-io/skills/blob/main/INSTALL.md) ·
 [guide en français](https://github.com/travelskills-io/skills/blob/main/INSTALL.fr.md)).
 
-The other three roles follow. The project is built in public: follow the
+`visitor-advisor` comes next. The project is built in public: follow the
 organization to get notified, or join the waitlist at
 [travelskills.io](https://travelskills.io).
 
@@ -38,9 +38,9 @@ organization to get notified, or join the waitlist at
 
 | Role | Covers | Status |
 |---|---|---|
-| Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale | Available: [`travel-planner`](https://github.com/travelskills-io/skills/tree/main/travel-planner) |
+| Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale | Preview: [`travel-planner`](https://github.com/travelskills-io/skills/tree/main/travel-planner) |
+| Visitor Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers | Next |
 | Travel Agent | Sales, objection handling, dispute resolution, legal obligations | Planned |
-| Stay Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers | Planned |
 | Tour Operator | Product copy, supplier negotiation, B2B communication, pre-departure documents | Planned |
 
 One skill per role, all in the [skills](https://github.com/travelskills-io/skills) repository.

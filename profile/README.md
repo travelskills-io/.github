@@ -17,30 +17,35 @@ learned to avoid, how they shift register depending on who they are talking to.
 
 Writing a skill file is easy. Writing one that holds up in front of someone who
 has done the job for ten years takes material no model produces on its own.
-That is where the work goes. Every pattern will come from a real source,
+That is where the work goes. Every pattern comes from a real source,
 identified in the skill file itself.
 
-The skills follow the open Agent Skills standard, so they install in Claude and
-in any other agent that reads the specification.
+The skills follow the open Agent Skills standard. They are tested on Claude;
+other agents that read the specification accept the same format.
 
 ## Status
 
-Pre-release. Nothing is published yet. The first skill ships in Fall 2026.
+The first skill, `travel-planner`, is out. Get it in the
+[skills](https://github.com/travelskills-io/skills) repository or on
+[travelskills.io/skills/travel-planner](https://travelskills.io/skills/travel-planner).
+Installing takes about 5 minutes, no code
+([English guide](https://github.com/travelskills-io/skills/blob/main/INSTALL.md) ·
+[guide en français](https://github.com/travelskills-io/skills/blob/main/INSTALL.fr.md)).
 
-The project is built in public. Follow the organization to get notified when the
-first repositories land, or join the waitlist at
+The other three roles follow. The project is built in public: follow the
+organization to get notified, or join the waitlist at
 [travelskills.io](https://travelskills.io).
 
 ## Four roles
 
-| Role | Covers |
-|---|---|
-| Travel Agent | Sales, objection handling, dispute resolution, legal obligations |
-| Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale |
-| Stay Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers |
-| Tour Operator | Product copy, supplier negotiation, B2B communication, pre-departure documents |
+| Role | Covers | Status |
+|---|---|---|
+| Travel Planner | Tailor-made trips, high-end client relationships, itinerary storytelling, pricing rationale | Available: [`travel-planner`](https://github.com/travelskills-io/skills/tree/main/travel-planner) |
+| Travel Agent | Sales, objection handling, dispute resolution, legal obligations | Planned |
+| Stay Advisor | Visitor welcome, local guidance, handling lost or unhappy travelers | Planned |
+| Tour Operator | Product copy, supplier negotiation, B2B communication, pre-departure documents | Planned |
 
-One skill per role. Repository names are set when each repository goes live.
+One skill per role, all in the [skills](https://github.com/travelskills-io/skills) repository.
 
 ## Who this is for
 
@@ -57,7 +62,8 @@ The project is built with the people who do the work. If you work in one of
 these four roles, write to hello@travelskills.io and describe how you handle one
 of these situations. At this stage that is worth more than a pull request.
 
-Code and content contributions open once the first repositories are live.
+To report a problem with a published skill, open an issue in the
+[skills](https://github.com/travelskills-io/skills/issues) repository.
 
 ---
 

@@ -1,9 +1,7 @@
 # TravelSkills
 
-**Open-source Claude Agent Skills for travel professionals.**
-
-The first open-source library of Claude Agent Skills for travel pros. Built
-from how the work is really done, not from generic web data.
+Open-source skills for travel pros, in the Agent Skills format that Claude and
+ChatGPT read. Built from how the work is really done, not from generic web data.
 
 [travelskills.io](https://travelskills.io)
 
